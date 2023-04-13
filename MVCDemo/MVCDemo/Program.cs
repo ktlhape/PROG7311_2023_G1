@@ -28,7 +28,7 @@ namespace MVCDemo
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Student}/{action=Login}/{id?}");
+                pattern: "{controller=Student}/{action=Create}/{id?}");
 
             app.Run();
         }

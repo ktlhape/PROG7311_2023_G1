@@ -7,6 +7,8 @@
         public double TestMark { get; set; }
         public string? Username { get; set; }
         public string? Password { get; set; }
+
+        public Student(){}
         public Student(string? stNumber, string? name, double testMark)
         {
             StNumber = stNumber;
