@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPillars", "OOPPillars.csproj", "{004496A2-5AE7-4FAC-986F-40F295098D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{004496A2-5AE7-4FAC-986F-40F295098D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004496A2-5AE7-4FAC-986F-40F295098D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004496A2-5AE7-4FAC-986F-40F295098D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004496A2-5AE7-4FAC-986F-40F295098D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {697AF331-0210-4004-991F-04BA332B3332}
+	EndGlobalSection
+EndGlobal

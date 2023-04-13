@@ -1,0 +1,27 @@
+﻿@model List<Student>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Student Details</h1>
+<hr />
+
+<table class="table-primary">
+
+    <tr>
+        <td>Student Number</td>
+        <td>Student Name</td>
+        <td>Test Mark</td>
+    </tr>
+
+    @foreach (Student st in Model)
+    {
+        <tr>
+            <td>@st.StNumber</td>
+            <td>@st.Name</td>
+            <td>@st.TestMark</td>
+        </tr>
+    }
+
+</table>
+

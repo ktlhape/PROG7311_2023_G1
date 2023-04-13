@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LoginLayout";
+}
+
+<div class="login-box">
+    <h2>Login</h2>
+    <form method="post" action="Student/ValidateLogin">
+        <div class="user-box">
+            <input type="text" name="txtUsername" required="">
+            <label>Username</label>
+        </div>
+        <div class="user-box">
+            <input type="password" name="txtPass" required="">
+            <label>Password</label>
+        </div>
+       <input type="submit">
+        <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+        </a>
+     
+    </form>
+</div>
+
